@@ -12,16 +12,16 @@ public class JanelaPrincipal {
 
     public void mostraMenu() {
         
-       int opcao;
+       int opcao = 0;
         
 
         do {
-            opcao - Integer.parseInt
-                    JOptionPane.showInputDialog("Informe a opção:"
+           opcao = Integer.parseInt(JOptionPane.showInputDialog("Informe a opção:"
                             + "\n1 - Funcionário"
                             + "\n2 - Cliente"
-                            + "\n3 - Fornecedor
+                            + "\n3 - Fornecedor"
                             + "\n4 - Transportadora"
+                            + "\n5 - Sair"));
        
         
         switch (opcao) {
@@ -37,5 +37,5 @@ public class JanelaPrincipal {
             default:
                 JOptionPane.showMessageDialog(null, "Opção inexistente! ");
         }
-    }
-}
+    
+
